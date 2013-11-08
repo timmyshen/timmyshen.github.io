@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Blog by Steve Smith</title>
+    
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Two cents</h1>
+        <p>An example</p>
+        <ul>
+          <li><a href="http://www.google.com">Go to <strong>Direct</strong></a></li>
+          <li><a href="http://www.google.com">Go to <strong>Treasury</strong></a></li>
+          <li><a href="http://www.github.com">Go to <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Examples of treasury auctions.</h1>
+        <p>United States Department of the Treasury issues government debts. Treasury securities are the debt financing instruments of the United States federal government, and they are often referred to simply as Treasuries. There are four types of marketable treasury securities: Treasury bills, Treasury notes, Treasury bonds, and Treasury Inflation Protected Securities (TIPS).</p>
+        <p>A good resource is the official website treasury direct. It lists all the history information of treasury auctions.</p>
+        <p>Let us take a looks at what has happened recently and try to make those terms make sense.</p>
+        <h2>T-Bills</h2>
+        <p>http://www.treasurydirect.gov/instit/annceresult/press/preanre/2013/R_20131105_1.pdf</p>
+        <p>This is a summary of a recent auction. The auction was conducted on Nov.05, 2013 and securit auctioned was a 28-day Bill, i.e. 4-week bill.</p>
+        <p>CUSIP is the unique id that identifies the security. You don't have to remember that actually.</p>
+        <h3>The next section in that document is crutial and central to the auction result.</h3>
+        <ul>
+        <li>High rate: High really means "lowest in price", since there's an inverse relationship between rate and bill price. All the attendees quote their rate in the bidding, and those bids the lowest got filled first. Put in another way, those who are willing to pay more of the security got the bill first. At last, every buyer would pay the same price, i.e. the lowest of the accepted price (highest of the accepted rate). This is denoted high rate.</li>
+        <li>There is a market convertion here though. What rate is used in "high rate"? It turns out, bills use a rate called "discount rate/yield" or simply "discount".</li>
+        <li>We can see the price listed on the document. A natural question would be, can we derive this price from the "discount".</li>
+        <li>No time of writing now. But huge hint here. Use TBILLPRICE in Excel.</li>
+        </ul>
+        <p>My email addy is <a href="mailto:benqingshen@gmail.com">Benqing Shen</a>.</p>
+      </section>
+      <footer>
+        <p>This page is maintained by Benqing Shen</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
